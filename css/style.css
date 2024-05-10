@@ -263,6 +263,7 @@ html, body{ height: 100%; }
 #header{}
 .logo{
 	float:left;
+    margin-left: 50px;
 }
 .header-block-top{
 	position: absolute;
@@ -840,19 +841,18 @@ html, body{ height: 100%; }
 .offer-item img {
     width: 20%;
     float: left;
-    padding: 10px;
-    background: #fff;
-	border-radius: 50%;
+    /* background: #fff; */
+	/* border-radius: 50%; */
 }
 
 .offer-item div {
-    width: 60%;
+    width: 80%;
     float: left;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.offer-item .offer-price {
+/* .offer-item .offer-price {
     position: absolute;
     right: 15px;
     top: 50%;
@@ -872,7 +872,7 @@ html, body{ height: 100%; }
     font-family: 'Roboto', sans-serif;
     text-align: center;
     letter-spacing: .5px;
-}
+} */
 
 .offer-item div h3 {
     font-size: 20px;
@@ -1203,16 +1203,16 @@ html, body{ height: 100%; }
 
 .blog-img-box{
 	float:left;
-	width:50%;
+	width:20%;
 	position: relative;
 }
 
-.blog-img-box .overlay {
+/* .blog-img-box .overlay {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 50%;
     background: rgba(0, 0, 0, 0.2);
     color: #fff;
     opacity: 0;
@@ -1226,10 +1226,12 @@ html, body{ height: 100%; }
 }
 .blog-img-box:hover .overlay {
     opacity: 1;
-}
+} */
 
 .blog-img-box img{
-	width:100%;
+	width:100;
+    margin-left: 60px;
+    margin-top: 60px;
 }
 
 .overlay i{
