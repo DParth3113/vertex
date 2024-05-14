@@ -875,7 +875,7 @@ html, body{ height: 100%; }
 } */
 
 .offer-item div h3 {
-    font-size: 20px;
+    font-size: 30px;
     margin: 9px 0 0px;
     font-family: 'nautilus_pompiliusregular';
     font-weight: 400;
@@ -1041,11 +1041,11 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .gallery-main{
-	
+	/* background-color: whitesmoke; */
 }
 
 .gallery-main .title-caption{
-	color: #666;
+	/* color: #666; */
 }
 
 /* new gallery */
